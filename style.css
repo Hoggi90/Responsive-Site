@@ -1,0 +1,94 @@
+
+header {
+    text-align: center;
+    margin: 0px 290px 50px 290px;
+    font-family: 'Pragmatica', sans-serif;
+
+}
+
+h1 {
+    color: #e867ed;
+    font-family: 'Pragmatica', sans-serif;
+
+}
+
+.flexbox h1 {
+    border: 1px solid white;
+    border-radius: 10px;
+    text-align: start;
+    position: relative;
+    margin-top: -10px;
+    padding-right: 40px;
+    padding-left: 10px;
+    background-color: #33393e;
+    font-family: 'Pragmatica', sans-serif;
+
+    
+}
+
+p {
+    color: white;
+    margin-left: 10px;
+    font-family: 'Pragmatica', sans-serif;
+    font-weight: 100;
+
+}
+
+.flexbox p {
+    color:#e867ed;
+    margin: 10px;
+    font-family: 'Pragmatica', sans-serif;
+    font-weight: 100;
+
+
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: auto;
+
+}
+
+pre {
+    color: white;
+}
+
+.flexbox #Flexbox-Row {
+    margin: auto;
+    width: 290px;
+    height: 60%;
+    padding: 5px;
+    position: relative;
+    border-radius: 8px;
+    background-image: linear-gradient(
+        rgba(232, 102, 236, 0.3) 0%,
+        rgba(232, 102, 236, 0.6) 100%
+    );
+}
+
+.container > div {
+    width: 320px;
+    height: 200px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    border: 1px dashed white;
+}
+
+.container > article {
+    width: 320px;
+    height: 300px;
+    margin: 10px;
+    border: 1px dashed white;
+}
+
+
+body {
+    background-color: #33393e;
+
+
+
+
